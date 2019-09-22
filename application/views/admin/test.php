@@ -7,6 +7,7 @@
     <title>admin side</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=32835fe3d6495f9113704e1390ca5b0d">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4-.css?h=8917ed24363311d6deb0e3de10c0c1d1">
     <link rel="stylesheet" href="assets/css/breadcrumb.css?h=eca7075e56a73a3612905c6d8191324f">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css?h=c942239c91f94a6b90d67fb2496c21bf">
     <link rel="stylesheet" href="assets/css/Data-Table-1.css?h=71f79ecfb6de2ac09d4f4c6f4b749319">
@@ -22,140 +23,20 @@
 </head>
 
 <body>
-    <div>
-        <nav class="navbar navbar-light navbar-expand-md">
-            <div class="container-fluid"><a class="navbar-brand" href="#"><strong>ZC Car Rental</strong></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div
-                    class="collapse navbar-collapse" id="navcol-2">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Notifications<span class="badge badge-primary">00</span></a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Admin</a>
-                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Settings</a><a class="dropdown-item" role="presentation" href="#">Log Out</a></div>
-                        </li>
-                    </ul>
-            </div>
-    </div>
-    </nav>
-    </div>
-    <div id="wrapper">
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"> <a href="index.html">Home </a></li>
-                <li> <a class="list-group-item focus" href="index.html">DASHBOARD</a></li>
-                <li> <a class="list-group-item focus" href="#">RENT</a></li>
-                <li> <a class="list-group-item focus" href="reservation.html">RESERVATION</a><a class="list-group-item focus"href="return.html">RETURN CAR</a><a href="cars.html" class="list-group-item active">CARS</a><a href="customer.html" class="list-group-item focus">CUSTOMER</a><a href="employee.html" class="list-group-item  focus">EMPLOYEE</a></li>
-            </ul>
-        </div>
-        <div class="page-content-wrapper">
-            <div class="container-fluid"><a class="btn btn-link" role="button" href="#menu-toggle" id="menu-toggle"><i class="fa fa-bars"></i></a><header>
-    <h3>ADD CARS </h3>
-    <div class="form-group">
-    <i class="fa fa-search"></i><label for="search-field"></label>
-        <input type="search" /> 
-    </div>
-</header>
-
-<div class = "container">
-  <div class="row">                  
-     <div class="row">
-    <!-- left part -->
-        <div class="col-sm-6">
-            
-          <div class="form-group">
-            
-            <input type="text" class="form-control" id="" name="" >
-              <label for="">Car Owner * </label>
-         </div>
-          
-         <div class="form-group">
-            
-            <input type="text" class="form-control" id="" name="" >
-             <label for="">Model * </label>
-        </div>  
-             
-        <div class="form-group">
-           
-            <input type="text" class="form-control" id="" name="" >
-             <label for="">Brand * </label>
-        </div>    
-            
-        <div class="form-group">
-           
-            <input type="text" class="form-control" id="" name="" >
-             <label for="">Type * </label>
-        </div>  
-            
-         <div class="form-group">
-           
-            <input type="text" class="form-control" id="" name="" >
-             <label for="">Seats * </label>
-        </div>  
-            
-             <div class="form-group">
-           
-            <input type="text" class="form-control" id="" name="" >
-             <label for="">Color * </label>
-        </div>  
-            
-             <div class="form-group">
-           
-            <input type="text" class="form-control" id="" name="" >
-             <label for="">Plate Number * </label>
-        </div>  
-            
-            
-</div>
-                    
-    <!-- left part -->
-                        
-    <!--right part -->
-        <div class="col-sm-6">                    
-            <div class = "container">
-                <div class="row">                  
-                    <div class="row">                 
-                        <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" name="" >
-                                    <label for="">Car Owner * </label>
-                                </div>                           
-                            <div class="form-group">           
-                                <input type="text" class="form-control" id="" name="" >
-                                <label for="">Transmission </label>
-                            </div>                                
-                            <div class="form-group">
-                            
-                                <input type="text" class="form-control" id="" name="" >
-                                <label for="">Fuel Capacity </label>
-                            </div>                                 
-                            <div class="form-group">
-                            
-                                <input type="text" class="form-control" id="" name="" >
-                                <label for="">Gas Type</label>
-                            </div>                                
-                            <div class="form-group">
-                            
-                                <input type="text" class="form-control" id="" name="" >
-                                <label for="">Insurance </label>
-                            </div>  
-                                
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="" name="" >
-                                <label for="">Price</label>
-                            </div>  
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="" name="" >
-                                <label for="">Driver </label>
-                            </div>  
-                            <a class="btn btn-primary" href="">Save</a>   
-                            </div>
-                        </div>
-                    <!--right part -->                      
+    <div class="container-fluid">
+        <div class="row mh-100vh">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-6 offset-1 offset-sm-2 offset-md-3 offset-lg-0 align-self-center d-lg-flex align-items-lg-center align-self-lg-stretch bg-white p-5 rounded rounded-lg-0 my-5 my-lg-0" id="login-block">
+                <div class="m-auto w-lg-75 w-xl-50">
+                    <h2 class="text-info font-weight-light mb-5"><i class="fa fa-diamond"></i>&nbsp;ADMIN</h2>
+                    <form>
+                        <div class="form-group"><label class="text-secondary">User</label><input class="form-control" type="text" required="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}$" inputmode="email"></div>
+                        <div class="form-group"><label class="text-secondary">Password</label><input class="form-control" type="password" required=""></div><button class="btn btn-info mt-2" type="submit">Log In</button></form>
+                    <p class="mt-3 mb-0"><a href="#" class="text-info small">Forgot your email or password?</a></p>
                 </div>
             </div>
-        </div> 
-       
-        </div>
+            <div class="col-lg-6 d-flex align-items-end" id="bg-block" style="background-image:url(&quot;assets/img/car_rental.jpg?h=7144c9ada1771cff05ccc6b475591ffa&quot;);background-size:cover;background-position:center center;">
+                <p class="ml-auto small text-dark mb-2"><br><a href="https://unsplash.com/photos/v0zVmWULYTg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" class="text-dark"><br></a><br></p>
+            </div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js?h=1dd785e1de9a32e236b624ae268bb803"></script>
