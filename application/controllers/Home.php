@@ -73,4 +73,9 @@ class Home extends CI_Controller {
 
 		$this->load->view('layouts/main', $data);
 	}
+
+	public function admin_login()
+	{
+		$this->load->view('admin/admin_login');
+	}
 }
