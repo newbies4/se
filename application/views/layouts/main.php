@@ -28,7 +28,7 @@
 	<div class="page-content-wrapper">
 		<div class="container-fluid"><a class="btn btn-link" role="button" href="#menu-toggle" id="menu-toggle"><i class="fa fa-bars"></i></a>
 			
-
+<!-- adfasdf -->
 				<?php $this->load->view($main_view); ?>
 
 			
